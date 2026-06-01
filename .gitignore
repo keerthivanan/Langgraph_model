@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment — never commit this (huge + machine-specific)
+venv/
+env/
+.venv/
+
+# Environment variables — NEVER commit your API keys
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LangGraph / SQLite checkpoints
+*.db
+*.sqlite
+data/
+
+# Logs
+*.log
